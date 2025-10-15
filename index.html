@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Discounted Products | Vijaya Mobile Accessories</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f9fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 1.2rem 0;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card-content {
+      padding: 15px;
+    }
+    .card-content h3 {
+      margin: 0;
+      font-size: 1.2rem;
+      color: #333;
+    }
+    .price {
+      margin: 10px 0;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: #888;
+      margin-right: 10px;
+    }
+    .new-price {
+      color: #28a745;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .discount {
+      background-color: #ffc107;
+      color: #000;
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-size: 0.8rem;
+      margin-top: 5px;
+    }
+    .btn-store {
+      display: block;
+      width: 100%;
+      background-color: #17a2b8;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      text-decoration: none;
+      border-radius: 0 0 12px 12px;
+      font-weight: 500;
+    }
+    .btn-store:hover {
+      background-color: #117a8b;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    📱 Vijaya Mobile Accessories - Discounted Products
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="product1.jpg" alt="Product 1">
+      <div class="card-content">
+        <h3>Wired Earphones </h3>
+        <div class="price">
+          <span class="old-price">₹120</span>
+          <span class="new-price">₹60</span>
+        </div>
+        <span class="discount">50% OFF</span>
+      </div>
+      <a href="https://maps.app.goo.gl/kHy3PKKWRU9y7mYB7" class="btn-store" target="_blank">Visit Store</a>
+    </div>
+
+    <div class="card">
+      <img src="product2.jpg" alt="Product 2">
+      <div class="card-content">
+        <h3>Wired Earphones</h3>
+        <div class="price">
+          <span class="old-price">₹100</span>
+          <span class="new-price">₹50</span>
+        </div>
+        <span class="discount">50% OFF</span>
+      </div>
+      <a href="https://maps.app.goo.gl/kHy3PKKWRU9y7mYB7" class="btn-store" target="_blank">Visit Store</a>
+    </div>
+
+    <div class="card">
+      <img src="product3.jpg" alt="Product 3">
+      <div class="card-content">
+        <h3>Data Cable (Type C and Micro) </h3>
+        <div class="price">
+          <span class="old-price">₹100</span>
+          <span class="new-price">₹50</span>
+        </div>
+        <span class="discount">50% OFF</span>
+      </div>
+      <a href="https://maps.app.goo.gl/kHy3PKKWRU9y7mYB7" class="btn-store" target="_blank">Visit Store</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Vijaya Mobile Accessories | All rights reserved.
+  </footer>
+</body>
+</html>
